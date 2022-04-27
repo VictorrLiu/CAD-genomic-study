@@ -5,8 +5,7 @@ library(RColorBrewer)
 
 
 
-#modified from Rachel's original code
-#*need to merge snp + gene + trait, only select gene and trait then use the repeated gene (number of eqtls) as the frequency as gradient"
+#merge snp + gene + trait, only select gene and trait then use the repeated gene (number of eqtls) as the frequency as gradient"
 #map the genes to traits by their snps
 #coronary
 coronary_input <- read.csv('results/final_results/coronary_sig_enrichment&bs.txt', sep=",") %>% 
